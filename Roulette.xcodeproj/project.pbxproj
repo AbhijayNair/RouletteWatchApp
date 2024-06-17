@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83208F232C209A85009E485B /* Roulette Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 83208F222C209A85009E485B /* Roulette Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		83208F282C209A85009E485B /* RouletteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F272C209A85009E485B /* RouletteApp.swift */; };
+		83208F2A2C209A85009E485B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F292C209A85009E485B /* ContentView.swift */; };
+		83208F2C2C209A87009E485B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83208F2B2C209A87009E485B /* Assets.xcassets */; };
+		83208F2F2C209A87009E485B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83208F2E2C209A87009E485B /* Preview Assets.xcassets */; };
+		83208F392C209A87009E485B /* Roulette_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F382C209A87009E485B /* Roulette_Watch_AppTests.swift */; };
+		83208F432C209A87009E485B /* Roulette_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F422C209A87009E485B /* Roulette_Watch_AppUITests.swift */; };
+		83208F452C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F442C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83208F242C209A85009E485B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83208F162C209A85009E485B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83208F212C209A85009E485B;
+			remoteInfo = "Roulette Watch App";
+		};
+		83208F352C209A87009E485B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83208F162C209A85009E485B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83208F212C209A85009E485B;
+			remoteInfo = "Roulette Watch App";
+		};
+		83208F3F2C209A87009E485B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83208F162C209A85009E485B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83208F212C209A85009E485B;
+			remoteInfo = "Roulette Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83208F4B2C209A87009E485B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				83208F232C209A85009E485B /* Roulette Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83208F1C2C209A85009E485B /* Roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83208F222C209A85009E485B /* Roulette Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roulette Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83208F272C209A85009E485B /* RouletteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteApp.swift; sourceTree = "<group>"; };
+		83208F292C209A85009E485B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83208F2B2C209A87009E485B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83208F2E2C209A87009E485B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83208F342C209A87009E485B /* Roulette Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roulette Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83208F382C209A87009E485B /* Roulette_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Watch_AppTests.swift; sourceTree = "<group>"; };
+		83208F3E2C209A87009E485B /* Roulette Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roulette Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83208F422C209A87009E485B /* Roulette_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		83208F442C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83208F1F2C209A85009E485B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83208F312C209A87009E485B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83208F3B2C209A87009E485B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83208F152C209A85009E485B = {
+			isa = PBXGroup;
+			children = (
+				83208F262C209A85009E485B /* Roulette Watch App */,
+				83208F372C209A87009E485B /* Roulette Watch AppTests */,
+				83208F412C209A87009E485B /* Roulette Watch AppUITests */,
+				83208F1D2C209A85009E485B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83208F1D2C209A85009E485B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83208F1C2C209A85009E485B /* Roulette.app */,
+				83208F222C209A85009E485B /* Roulette Watch App.app */,
+				83208F342C209A87009E485B /* Roulette Watch AppTests.xctest */,
+				83208F3E2C209A87009E485B /* Roulette Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83208F262C209A85009E485B /* Roulette Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				83208F272C209A85009E485B /* RouletteApp.swift */,
+				83208F292C209A85009E485B /* ContentView.swift */,
+				83208F2B2C209A87009E485B /* Assets.xcassets */,
+				83208F2D2C209A87009E485B /* Preview Content */,
+			);
+			path = "Roulette Watch App";
+			sourceTree = "<group>";
+		};
+		83208F2D2C209A87009E485B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83208F2E2C209A87009E485B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83208F372C209A87009E485B /* Roulette Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				83208F382C209A87009E485B /* Roulette_Watch_AppTests.swift */,
+			);
+			path = "Roulette Watch AppTests";
+			sourceTree = "<group>";
+		};
+		83208F412C209A87009E485B /* Roulette Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83208F422C209A87009E485B /* Roulette_Watch_AppUITests.swift */,
+				83208F442C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Roulette Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83208F1B2C209A85009E485B /* Roulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83208F4C2C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette" */;
+			buildPhases = (
+				83208F1A2C209A85009E485B /* Resources */,
+				83208F4B2C209A87009E485B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83208F252C209A85009E485B /* PBXTargetDependency */,
+			);
+			name = Roulette;
+			productName = Roulette;
+			productReference = 83208F1C2C209A85009E485B /* Roulette.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		83208F212C209A85009E485B /* Roulette Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83208F482C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette Watch App" */;
+			buildPhases = (
+				83208F1E2C209A85009E485B /* Sources */,
+				83208F1F2C209A85009E485B /* Frameworks */,
+				83208F202C209A85009E485B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roulette Watch App";
+			productName = "Roulette Watch App";
+			productReference = 83208F222C209A85009E485B /* Roulette Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83208F332C209A87009E485B /* Roulette Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83208F4F2C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette Watch AppTests" */;
+			buildPhases = (
+				83208F302C209A87009E485B /* Sources */,
+				83208F312C209A87009E485B /* Frameworks */,
+				83208F322C209A87009E485B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83208F362C209A87009E485B /* PBXTargetDependency */,
+			);
+			name = "Roulette Watch AppTests";
+			productName = "Roulette Watch AppTests";
+			productReference = 83208F342C209A87009E485B /* Roulette Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83208F3D2C209A87009E485B /* Roulette Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83208F522C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette Watch AppUITests" */;
+			buildPhases = (
+				83208F3A2C209A87009E485B /* Sources */,
+				83208F3B2C209A87009E485B /* Frameworks */,
+				83208F3C2C209A87009E485B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83208F402C209A87009E485B /* PBXTargetDependency */,
+			);
+			name = "Roulette Watch AppUITests";
+			productName = "Roulette Watch AppUITests";
+			productReference = 83208F3E2C209A87009E485B /* Roulette Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83208F162C209A85009E485B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					83208F1B2C209A85009E485B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					83208F212C209A85009E485B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					83208F332C209A87009E485B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 83208F212C209A85009E485B;
+					};
+					83208F3D2C209A87009E485B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 83208F212C209A85009E485B;
+					};
+				};
+			};
+			buildConfigurationList = 83208F192C209A85009E485B /* Build configuration list for PBXProject "Roulette" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83208F152C209A85009E485B;
+			productRefGroup = 83208F1D2C209A85009E485B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83208F1B2C209A85009E485B /* Roulette */,
+				83208F212C209A85009E485B /* Roulette Watch App */,
+				83208F332C209A87009E485B /* Roulette Watch AppTests */,
+				83208F3D2C209A87009E485B /* Roulette Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83208F1A2C209A85009E485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83208F202C209A85009E485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83208F2F2C209A87009E485B /* Preview Assets.xcassets in Resources */,
+				83208F2C2C209A87009E485B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83208F322C209A87009E485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83208F3C2C209A87009E485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83208F1E2C209A85009E485B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83208F2A2C209A85009E485B /* ContentView.swift in Sources */,
+				83208F282C209A85009E485B /* RouletteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83208F302C209A87009E485B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83208F392C209A87009E485B /* Roulette_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83208F3A2C209A87009E485B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83208F452C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift in Sources */,
+				83208F432C209A87009E485B /* Roulette_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83208F252C209A85009E485B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83208F212C209A85009E485B /* Roulette Watch App */;
+			targetProxy = 83208F242C209A85009E485B /* PBXContainerItemProxy */;
+		};
+		83208F362C209A87009E485B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83208F212C209A85009E485B /* Roulette Watch App */;
+			targetProxy = 83208F352C209A87009E485B /* PBXContainerItemProxy */;
+		};
+		83208F402C209A87009E485B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83208F212C209A85009E485B /* Roulette Watch App */;
+			targetProxy = 83208F3F2C209A87009E485B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83208F462C209A87009E485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83208F472C209A87009E485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		83208F492C209A87009E485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roulette Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AQ6878484B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Roulette;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Roulette.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		83208F4A2C209A87009E485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roulette Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AQ6878484B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Roulette;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Roulette.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		83208F4D2C209A87009E485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				INFOPLIST_KEY_CFBundleDisplayName = Roulette;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Roulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83208F4E2C209A87009E485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				INFOPLIST_KEY_CFBundleDisplayName = Roulette;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Roulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83208F502C209A87009E485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Roulette-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roulette Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roulette Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		83208F512C209A87009E485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Roulette-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roulette Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roulette Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		83208F532C209A87009E485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Roulette-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Roulette Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		83208F542C209A87009E485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Roulette-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Roulette Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83208F192C209A85009E485B /* Build configuration list for PBXProject "Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83208F462C209A87009E485B /* Debug */,
+				83208F472C209A87009E485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83208F482C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83208F492C209A87009E485B /* Debug */,
+				83208F4A2C209A87009E485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83208F4C2C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83208F4D2C209A87009E485B /* Debug */,
+				83208F4E2C209A87009E485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83208F4F2C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83208F502C209A87009E485B /* Debug */,
+				83208F512C209A87009E485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83208F522C209A87009E485B /* Build configuration list for PBXNativeTarget "Roulette Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83208F532C209A87009E485B /* Debug */,
+				83208F542C209A87009E485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83208F162C209A85009E485B /* Project object */;
+}
