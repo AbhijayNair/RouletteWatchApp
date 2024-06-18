@@ -15,6 +15,8 @@
 		83208F392C209A87009E485B /* Roulette_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F382C209A87009E485B /* Roulette_Watch_AppTests.swift */; };
 		83208F432C209A87009E485B /* Roulette_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F422C209A87009E485B /* Roulette_Watch_AppUITests.swift */; };
 		83208F452C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83208F442C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift */; };
+		834124C32C20B8C5007C3C80 /* RoulettePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834124C22C20B8C5007C3C80 /* RoulettePicker.swift */; };
+		834124C52C20B8FD007C3C80 /* CoinToss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834124C42C20B8FD007C3C80 /* CoinToss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		83208F3E2C209A87009E485B /* Roulette Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roulette Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83208F422C209A87009E485B /* Roulette_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		83208F442C209A87009E485B /* Roulette_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		834124C22C20B8C5007C3C80 /* RoulettePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoulettePicker.swift; sourceTree = "<group>"; };
+		834124C42C20B8FD007C3C80 /* CoinToss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinToss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				83208F292C209A85009E485B /* ContentView.swift */,
 				83208F2B2C209A87009E485B /* Assets.xcassets */,
 				83208F2D2C209A87009E485B /* Preview Content */,
+				834124C22C20B8C5007C3C80 /* RoulettePicker.swift */,
+				834124C42C20B8FD007C3C80 /* CoinToss.swift */,
 			);
 			path = "Roulette Watch App";
 			sourceTree = "<group>";
@@ -311,6 +317,8 @@
 			files = (
 				83208F2A2C209A85009E485B /* ContentView.swift in Sources */,
 				83208F282C209A85009E485B /* RouletteApp.swift in Sources */,
+				834124C32C20B8C5007C3C80 /* RoulettePicker.swift in Sources */,
+				834124C52C20B8FD007C3C80 /* CoinToss.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

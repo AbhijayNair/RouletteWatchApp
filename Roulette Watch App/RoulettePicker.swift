@@ -7,9 +7,31 @@
 
 import SwiftUI
 
+func createRoom() {}
+
+func joinRoom() {}
+
 struct RoulettePicker: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            ZStack {
+                Color.black.ignoresSafeArea(.all)
+                Spacer()
+                VStack {
+                    Button(action: joinRoom, label: {
+                        Text("Join Room")
+                    })
+                    .background(.blue, in: RoundedRectangle(cornerRadius: 36.0))
+                    .padding()
+                    
+                    Button(action: createRoom, label: {
+                        Text("Create Room")
+                    })
+                    .padding()
+                }.safeAreaPadding(.all)
+            }
+            .navigationTitle("Roulette")
+        }
     }
 }
 
