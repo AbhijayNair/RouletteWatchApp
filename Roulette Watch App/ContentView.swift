@@ -12,7 +12,6 @@ struct ContentView: View {
     @State var homeListIndex = 0
     @State var homeListZViews: [AnyView] = []
     @State var scrollAmount = 1.0
-    @State var touchTime: Date? = Date()
     
     var body: some View {
         ZStack {
